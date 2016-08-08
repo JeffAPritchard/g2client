@@ -1,10 +1,10 @@
-import { MYSEEDPROJECTNAMEPage } from './app.po';
+import { gallery2Page } from './app.po';
 
 describe('my-seed-project-name App', function() {
-  let page: MYSEEDPROJECTNAMEPage;
+  let page: gallery2Page;
 
   beforeEach(() => {
-    page = new MYSEEDPROJECTNAMEPage();
+    page = new gallery2Page();
   });
 
   it('should display message saying app works', () => {

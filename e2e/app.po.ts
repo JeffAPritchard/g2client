@@ -1,4 +1,4 @@
-export class MYSEEDPROJECTNAMEPage {
+export class gallery2Page {
   navigateTo() {
     return browser.get('/');
   }

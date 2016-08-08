@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 
 beforeEachProviders(() => [AppComponent]);
 
-describe('App: MYSEEDPROJECTNAME', () => {
+describe('App: gallery2', () => {
   it('should create the app',
       inject([AppComponent], (app: AppComponent) => {
     expect(app).toBeTruthy();
