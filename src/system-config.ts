@@ -7,6 +7,7 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  moment: 'node_modules/moment/moment.js'
 };
 
 /** User packages configuration. */
@@ -34,6 +35,7 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/seedling',
   /** @cli-barrel */
 ];
 
